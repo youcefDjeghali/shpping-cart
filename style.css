@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e9e9e9;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center; 
+    align-items:center;
+    gap: 50px;
+}
+
+h1{
+    color: rgb(14, 63, 168);
+    font-family: sans-serif;
+  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 85vh;
+    box-sizing: content-box;
+    gap: 20px;
+    background-color:rgb(255, 255, 255);
+    padding:40px
+}
+
+
+.part0{
+    display: flex;
+    gap: 105px;
+} 
+
+
+
+.part1{
+    display: flex;
+    gap: 95px;    
+    align-items: center;
+    
+}
+
+
+.part2{
+    display: flex;
+    gap: 95px;    
+    align-items: center;
+
+}
+.part1 img{
+    height:70px
+}
+
+
+.part1 p {
+    border: 1px solid grey;
+    height:30px;
+    width:35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.part2 img{
+    height:70px
+}
+.part2 p {
+    border: 1px solid grey;
+    height:30px;
+    width:35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.quantity {
+    display: flex;
+    height: 40px;
+}
+
+.boxes{
+    display: flex;
+    gap: 40px;
+    justify-content:center;
+    align-items:center;
+    height: 80px;
+}
+
+.boxes p {
+    border: 1px solid rgb(153, 153, 153);
+    padding: 20px 20px;
+    display: flex;
+    align-items:center;
+    font-size:12px;
+    font-weight: 600;
+    color: rgb(73, 72, 72);
+}
+.code{
+    display: flex;
+    height: 40px;
+}
+
+input#promotion{
+    width: 50%;
+    border: 1px solid rgb(153, 153, 153);
+    padding: 0px 20px;
+}
+.code button{
+    background-color:rgb(29, 49, 104);
+    color:white;
+    padding:0px 15px;
+}
+button#check{
+    padding:0px 30px;
+    margin-left: 105 px;
+
+}
+
+.last{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    align-items:flex-end;
+    gap:5px
+    
+
+}
+
+
+.last button{
+    background-color:rgb(192, 192, 192);
+    color:white;
+    width:120px;
+    padding: 10px 0px;
+
+}
+
+button#remove{
+    height:32px;
+    width:35px
+}
+
+.quantity{
+    height:32px;
+    width:105px;
+    display: flex;
+    justify-content:center;
+    
+}
+
+button#add_btn{
+    width: 35px;
+    background-color:rgb(29, 49, 104);
+    color:white;
+}
+button#delete_btn{
+    width: 35px;
+}
+
+.quantity span{
+    width: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid rgb(153, 153, 153);
+    
+}
